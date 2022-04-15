@@ -45,3 +45,9 @@ or to add all files use
 
 git add . 
 
+PS C:\Users\KarnamAn\git-funda\git-funda> git commit -m "added new file "
+[main 3e2ab70] added new file
+ 1 file changed, 47 insertions(+)
+ create mode 100644 pull-from-github
+
+will this push to github ? it requires ssh-authentication 
