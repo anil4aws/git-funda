@@ -1,6 +1,6 @@
 # learn git
 
-## some text git showed when i created new repo
+## some text git showed when I created new repo
 
 echo "# git-funda" >> README.md 
 
