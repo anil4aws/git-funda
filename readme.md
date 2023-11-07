@@ -2,13 +2,34 @@
 
 ## some text git showed when I created new repo
 
-echo "# git-funda" >> README.md 
+## After installation of Git
 
-git init
+git init 
+## this will make the initialize reinitialize folder by adding .git 
+## check further in Git/mingw64/share/doc/git-doc/git-init.html 
 
 git add README.md
 
 git commit -m "first commit"
+## this will say 
+## PS D:\workspace\kafka-for-learners> git commit -m "edited readm commit"
+##Author identity unknown
+
+##*** Please tell me who you are.
+
+##Run
+
+  ##git config --global user.email "you@example.com"
+  ##git config --global user.name "Your Name"
+
+##to set your account's default identity.
+##Omit --global to set the identity only in this repository.
+
+git config --global user.email "Anil Karnam"
+git config --global user.name "Anil"
+
+git commit -m "first commit"
+
 
 git branch -M main
 
