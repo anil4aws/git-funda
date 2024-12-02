@@ -1,16 +1,17 @@
 # learn git
 
-## some text git showed when I created new repo
 
-## After installation of Git
-#create folder and 
-git init 
-##this will make the initialize reinitialize folder by adding .git 
-##check further in Git/mingw64/share/doc/git-doc/git-init.html 
+-- After installation 
 
-git add README.md
+--create folder and **git init**
 
-git commit -m "first commit"
+--this will make the initialize reinitialize folder by adding .git 
+--check further in Git/mingw64/share/doc/git-doc/git-init.html 
+
+**git add README.md**
+
+**git commit -m "first commit"**
+
 ##this will say 
 ##PS D:\workspace\kafka-for-learners> git commit -m "edited readm commit"
 ##Author identity unknown
@@ -25,10 +26,10 @@ git commit -m "first commit"
 ##to set your account's default identity.
 ##Omit --global to set the identity only in this repository.
 
-git config --global user.email "Anil Karnam"
-git config --global user.name "Anil"
+**git config --global user.email "Anil Karnam"
+git config --global user.name "Anil"**
 
-git commit -m "first commit"
+**git commit -m "first commit"**
 
 ##agains throws error as untracked files
 ##Untracked files:
@@ -41,9 +42,9 @@ git commit -m "first commit"
 
 git branch -M main
 
-## if you create a repo locally then you need to link that to a remote remo,below is how it is done 
-git remote add origin https://github.com/anil4aws/git-funda.git
-git push -u origin main 
+If you create a repo locally then you need to link that to a remote remo,below is how it is done 
+**git remote add origin https://github.com/anil4aws/git-funda.git
+git push -u origin main** 
 here -u means upstream which will allow not to mention origin from next time . so only git push is enough
 
 
